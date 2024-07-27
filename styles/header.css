@@ -75,3 +75,23 @@
 .voice-search-icon {
     height: 25px;
 }
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.upload-icon,
+.youtube-apps,
+.notifications {
+    height: 24px;
+}
+
+.user-channel {
+    height: 32px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
