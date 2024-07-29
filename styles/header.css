@@ -3,7 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
     height: 55px;
-    border: 1px solid;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(228, 228, 228);
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .left-section {
