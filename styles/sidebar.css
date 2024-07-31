@@ -7,7 +7,6 @@
     width: 72px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     z-index: 150;
     padding-top: 5px;
