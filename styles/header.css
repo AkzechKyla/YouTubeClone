@@ -91,12 +91,25 @@
     align-items: center;
     width: 200px;
     flex-shrink: 0;
+    position: relative;
 }
 
 .upload-icon,
 .youtube-apps,
 .notifications {
     height: 24px;
+}
+
+.notification-count {
+    position: absolute;
+    background-color: #CC0000;
+    color: white;
+    font-size: 8px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 100%;
+    border: 1px white solid;
+    top: 15px;
+    right: 73px;
 }
 
 .user-channel {
