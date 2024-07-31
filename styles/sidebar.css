@@ -5,4 +5,28 @@
     left: 0;
     bottom: 0;
     width: 72px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    z-index: 150;
+    padding-top: 5px;
+}
+
+.sidebar-list {
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-list span {
+    font-size: 10px;
+}
+
+.sidebar-list img {
+    height: 24px;
+    margin-bottom: 4px;
 }
