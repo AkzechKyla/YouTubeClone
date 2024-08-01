@@ -27,7 +27,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .video-owner,
@@ -48,6 +48,8 @@
 
 .video-owner {
     margin-bottom: 4px;
+    display: inline-block;
+    line-height: 1.2;
 }
 
 .video-grid {
