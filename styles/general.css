@@ -1,4 +1,4 @@
-p, span {
+p, span, div {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
@@ -11,4 +11,5 @@ body {
     padding-right: 24px;
     background-color: #F9F9F9;
     height: 3000px;
+    font-weight: 400;
 }
