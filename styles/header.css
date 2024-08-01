@@ -108,7 +108,11 @@
     white-space: nowrap;
 }
 
-.search-btn:hover .search-tooltip {
+.search-btn:hover .search-tooltip,
+.upload-icon:hover + .upload-tooltip,
+.youtube-apps:hover + .youtube-apps-tooltip,
+.notifications:hover + .notifications-tooltip,
+.voice-search-btn:hover .voice-search-tooltip {
     opacity: 1;
 }
 
@@ -123,10 +127,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-
-.voice-search-btn:hover .voice-search-tooltip {
-    opacity: 1;
 }
 
 .voice-search-icon {
@@ -158,18 +158,6 @@
 .notifications {
     height: 24px;
     cursor: pointer;
-}
-
-.upload-icon:hover + .upload-tooltip {
-    opacity: 1;
-}
-
-.youtube-apps:hover + .youtube-apps-tooltip {
-    opacity: 1;
-}
-
-.notifications:hover + .notifications-tooltip {
-    opacity: 1;
 }
 
 .notifications-count {
