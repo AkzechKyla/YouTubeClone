@@ -125,28 +125,50 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
+    width: 182px;
+    margin-right: 24px;
+    margin-left: 29px;
     flex-shrink: 0;
     position: relative;
     margin-right: 24px;
+}
+
+.tooltip-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .upload-icon,
 .youtube-apps,
 .notifications {
     height: 24px;
+    cursor: pointer;
 }
 
-.notification-count {
+.upload-icon:hover + .upload-tooltip {
+    opacity: 1;
+}
+
+.youtube-apps:hover + .youtube-apps-tooltip {
+    opacity: 1;
+}
+
+.notifications:hover + .notifications-tooltip {
+    opacity: 1;
+}
+
+.notifications-count {
     position: absolute;
     background-color: #CC0000;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     padding: 2px 5px 2px 5px;
     border-radius: 100%;
-    border: 1px white solid;
-    top: 15px;
-    right: 60px;
+    border: 2px white solid;
+    top: -3px;
+    right: -7px;
 }
 
 .user-channel {
