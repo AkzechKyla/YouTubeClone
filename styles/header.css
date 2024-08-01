@@ -59,6 +59,15 @@
     font-size: 16px;
 }
 
+.search-bar:focus{
+    outline: none;
+    border:1px solid rgb(34, 34, 209);
+}
+
+.search-bar:focus + .search-btn {
+    border-left: 1px solid rgb(34, 34, 209);
+}
+
 .search-btn {
     height: 39px;
     width: 66px;
